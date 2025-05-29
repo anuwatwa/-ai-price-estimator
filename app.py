@@ -72,3 +72,4 @@ if st.button("คำนวณราคาก่อสร้าง"):
     X = np.array([[price, area, floors]])
     y_pred = model.predict(X)
     st.success(f"💰 ราคาประมาณการ: {round(y_pred[0]):,} บาท")
+
